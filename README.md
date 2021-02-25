@@ -1,4 +1,6 @@
-#Introduction
+# Demo
+# History
+
 Hi!
 My name is Stephen Lee from South Korea.
 I'm new to this Git and Github and just began learning coding.
