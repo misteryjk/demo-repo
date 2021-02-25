@@ -1,9 +1,10 @@
-# Demo
-# History
+# Greetings!
 
 Hi!
 My name is Stephen Lee from South Korea.
 I'm new to this Git and Github and just began learning coding.
+
+# Goals
 
 The followings are my goal in learning programming:
   1. By mastering the basics of HTML/CSS/JavaScript, I can build a simple website by myself.
@@ -12,6 +13,8 @@ The followings are my goal in learning programming:
   4. By becoming a literate in Programming, learn how to effectively and efficiently communicate with Programmers.
   5. Become a DevOps.
   6. Start a company with my project to build a website.
+
+# Learning Path
 
 My initial project is to build a responsive website for myself and my friend, which will be a simple portfolio website.
 Currently I'm learning these three languages:
