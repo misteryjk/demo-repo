@@ -1,31 +1,42 @@
-# Greetings!
+# Website Development Project 01
 
-Hi!
-My name is Stephen Lee from South Korea.
-I'm new to this Git and Github and just began learning coding.
+Fullpage scroll without using Fullpage.js
 
-# Goals
 
-The followings are my goal in learning programming:
-  1. By mastering the basics of HTML/CSS/JavaScript, I can build a simple website by myself.
-  2. By mastering the Version Constro System(VSC) with Git & GitHub, I can understand and participate in future development projects.
-  3. By learning Python and Machine Learning, understand the ecosystem of programming in Deep Learning and AI.
-  4. By becoming a literate in Programming, learn how to effectively and efficiently communicate with Programmers.
-  5. Become a DevOps.
-  6. Start a company with my project to build a website.
+# Source Information
 
-# Learning Path
+index.html : main body
+style.css : main css stylesheet
+main.js : simple javascript
 
-My initial project is to build a responsive website for myself and my friend, which will be a simple portfolio website.
-Currently I'm learning these three languages:
-  1. HTML
-  2. CSS
-  3. JavaScript
-  
-After I get comfortable with those 3 languages, I want to move on and study the followings:
-  1. node.js
-  2. jquery
-  3. JSON
-  4. Python
-  5. Django
+# Version
+
+ver0.1 -  Pure HTML/CSS version - CSSOM Scroll-behavior
+          not supporting some browsers like Safari
+          refer to the following website
+          https://caniuse.com/?search=scroll-behavior
+
+ver0.2 -  jQuery implementation <br>
+<p><code>
+$('.navbar a').on('click', function (e) {
+.navbar a : select the parameter
+.on('click') : choose event
+function(e) : event function
+    if (this.hash !== '') {
+If this 'hash' is not EMPTY, we have to prevent the default action.
+        e.preventDefault();
+
+        const hash = this.hash;
+make 'hash' a variable.
+
+        $('html, body').animate({
+             scrollTop: $(hash).offset().top
+choose the 'scrollTop method
+ choose 'hash' and offset
+         }, 800); //set the speed for 800 mili-seconds
+
+    }
+ });
+</code></p>
+
 
